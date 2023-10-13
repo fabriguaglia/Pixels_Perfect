@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.ourteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.teamimg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 400px;
+    height: 215px;
+    padding-left: 20px;
+}
+
+.ourteam p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+    margin-right: 25px;
+}
+
+.teamtitle, .artistitle {
+    font-size: 30px;
+    font-family: 'HISKYFLIPPERHI', sans-serif;
+    padding-bottom: 40px;
+}
+
+.anartist {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0 0 0;
+}
+
+.anartist p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+    margin-right: 25px;
+}
+
+.artistimg {
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.peoplecard {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.card {
+    margin: 20px 20px 40px 20px;
+}
+
+.workername,
+.workerage,
+.workerrole {
+    margin: 5px 0;
+}
+
+.workerphoto {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.workername {
+    max-width: 200px;
+}
+
+@media screen and (max-width: 750px) {
+    .peoplecard {
+        display: flex;
+        flex-direction: column;
+        columns: 2;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ourteam img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .ourteam p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .anartist p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 0 15px;
+    }
+    
+    .ourteam img {
+        display: none;
+    }
+
+    .artistimg {
+        display: none;
+    }
+}
+
