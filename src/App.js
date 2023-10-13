@@ -48,7 +48,6 @@ function App() {
           <Route path="/products/gangster-sprite" element={<GangsterSprite />}/>
           <Route path="/products/lario-sprite" element={<LarioSprite />}/>
           <Route path="/products/warrior-sprite" element={<WarriorSprite />}/>
-          
           <Route path="/products/avatar-sprite" element={<AvatarSprite />}/>
           <Route path="/products/bearman-sprite" element={<BearmanSprite />}/>
           <Route path="/products/beisbol-sprite" element={<BeisbolSprite />}/>

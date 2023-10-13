@@ -22,34 +22,34 @@ function AboutUs() {
 
             <div className='peoplecard'>
                 <PeopleCard
-                    image= { spritesImport.lucioProfile }
+                    image= { spritesImport.FotoFacu }
                     name='Facundo Padilla'
-                    age='16y old'
-                    role='Developer'
-                    href="https://github.com/DiveShower"
+                    age='28y old'
+                    role='Full-Stack Developer'
+                    href="https://www.linkedin.com/in/facundo-león-padilla/"
                 />
 
                 <PeopleCard
-                    image= { spritesImport.lucioProfile }
+                    image= { spritesImport.FotoFabri }
                     name='Fabrizio Guaglianone'
                     age='16y old'
-                    role='Developer'
-                    href="https://github.com/fabriguaglia"
+                    role='Full-Stack Developer'
+                    href="https://www.linkedin.com/in/fabrizio-donato-guaglianone/"
                 />
 
-                <PeopleCard
+                {/* <PeopleCard
                     image= { spritesImport.lucioProfile }
                     name='Lucio Lopez'
                     age='16y old'
                     role='Frontend Developer'
                     href="https://github.com/ninjusdev"
-                />
+                /> */}
 
                 <PeopleCard
-                    image= { spritesImport.lucioProfile }
+                    image= { spritesImport.FotoAgus }
                     name='Agustin Díaz Ortiz'
                     age='19y old'
-                    role='Developer'
+                    role='Full-Stack Developer'
                     href="https://www.linkedin.com/in/agust%C3%ADn-ortiz-52b362291/"
                 />
             </div>
