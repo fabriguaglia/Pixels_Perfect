@@ -26,7 +26,7 @@ function Home() {
                     />
 
                     <ReuCard
-                        href="/products/other-sprite"
+                        href="/products/foxSprite"
                         img={ spritesImport.foxSprite }
                         title='Fox Sprite'
                         price='$4.99'
