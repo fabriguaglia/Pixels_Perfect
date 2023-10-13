@@ -30,7 +30,7 @@ import PirataSprite from './components/products/productos-por-separado/PirataSpr
 import PoliciaSprite from './components/products/productos-por-separado/PoliciaSprite';
 import TenisSprite from './components/products/productos-por-separado/TenisSprite';
 import UndertaleSprite from './components/products/productos-por-separado/UndertaleSprite';
-
+import ContactUs from './components/contact/ContactUs';
 
 function App() {
   return (
@@ -42,6 +42,7 @@ function App() {
         <Route path='/login' element={ <Login /> } />
         <Route path='/register' element={ <Register /> } />
         <Route path='/terminos-y-condiciones' element={ <Terminosycondiciones /> } />
+        <Route path='/contact' element={ <ContactUs /> } />
         <Route exact path="/products" element={<Products />}/>
           <Route path="/products/among-sprite" element={<AmongUsSprite />}/>
           <Route path="/products/foxSprite" element={<FoxSprite />}/>
