@@ -79,7 +79,7 @@
     color: #000;
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 727px) {
     .header {
         height: 50px;
     }
