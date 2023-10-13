@@ -47,10 +47,10 @@ function AboutUs() {
 
                 <PeopleCard
                     image= { spritesImport.lucioProfile }
-                    name='Agustin Ortiz'
-                    age='16y old'
+                    name='Agustin Díaz Ortiz'
+                    age='19y old'
                     role='Developer'
-                    href=""
+                    href="https://www.linkedin.com/in/agust%C3%ADn-ortiz-52b362291/"
                 />
             </div>
         </>
