@@ -25,6 +25,9 @@ import mono from '../img/monoo.jpg'
 import futbol from '../img/futbol.jpg'
 import beisbol from '../img/beisbol.png'
 import tenis from '../img/tenis.jpeg'
+import FotoAgus from '../img/FotoAgus.jpg'
+import FotoFacu from '../img/FotoFacu.jpg'
+import FotoFabri from '../img/FotoFabri.png'
 
 const spritesImport = {
     amongSprite,
@@ -53,7 +56,10 @@ const spritesImport = {
     futbol,
     mono,
     beisbol,
-    tenis
+    tenis,
+    FotoAgus,
+    FotoFacu,
+    FotoFabri
 }
 
 export default spritesImport;

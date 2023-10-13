@@ -7,7 +7,7 @@ export function PeopleCard(props) {
             <h3 className="workername">{props.name}</h3>
             <h3 className="workerage">{props.age}</h3>
             <h3 className="workerrole">{props.role}</h3>
-            <a href={props.href}><img src={props.img} alt="github/linkedin" loading="lazy"></img></a>
+            <a href={props.href}><img src={props.img} alt="Linkedin" loading="lazy"></img></a>
         </div>
     )
 }
