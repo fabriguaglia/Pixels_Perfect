@@ -38,9 +38,6 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path='/about' element={ <AboutUs /> } />
         <Route path='/perfil' element={ <Profile /> } />
-        <Route path='/login' element={ <Login /> } />
-        <Route path='/register' element={ <Register /> } />
-        <Route path='/terminos-y-condiciones' element={ <Terminosycondiciones /> } />
         <Route path='/contact' element={ <ContactUs /> } />
         <Route exact path="/products" element={<Products />}/>
           <Route path="/products/among-sprite" element={<AmongUsSprite />}/>
