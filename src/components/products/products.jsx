@@ -7,6 +7,13 @@ function Products() {
   return (
     <>
             <div className="prod">
+                
+                <button id='mostrar'>Carrito</button>
+                <div id='carrito'>
+                    <button id='ocultar'>X</button>
+                    <h2>Productos en el carrito</h2>
+
+                </div>
             <div className="divider1"><hr></hr></div>
                 <div className="box">
                     <h2>Latest Featured Pixels</h2>

@@ -15,6 +15,12 @@
     color: aliceblue;
 } */
 
+/*carrito*/
+#carrito{
+    max: width 400px; ;
+    display: none;
+}
+
 .prod-box-princ{
     
     display: grid;
