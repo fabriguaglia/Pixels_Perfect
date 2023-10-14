@@ -7,13 +7,15 @@ import Home from './components/home/home';
 import Login from "./components/log/login";
 import Register from "./components/log/register";
 import Terminosycondiciones from "./components/log/terminos-y-condiciones";
+import CartContent from './components/cartContent/cartContent';
+import DataProvider from './components/Context/ContextData';
+
 import Products from './components/products/products';
 import AmongUsSprite from './components/products/productos-por-separado/AmongUsSprite';
 import FoxSprite from './components/products/productos-por-separado/FoxSprite';
 import GangsterSprite from './components/products/productos-por-separado/GangsterSprite';
 import LarioSprite from './components/products/productos-por-separado/LarioSprite';
 import WarriorSprite from './components/products/productos-por-separado/WarriorSprite';
-
 import AvatarSprite from './components/products/productos-por-separado/AvatarSprite';
 import BearmanSprite from './components/products/productos-por-separado/BearManSprite';
 import BeisbolSprite from './components/products/productos-por-separado/BeisbolSprite';
@@ -32,42 +34,46 @@ import TenisSprite from './components/products/productos-por-separado/TenisSprit
 import UndertaleSprite from './components/products/productos-por-separado/UndertaleSprite';
 import ContactUs from './components/contact/ContactUs';
 
+
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path='/about' element={ <AboutUs /> } />
-        <Route path='/login' element={ <Login /> } />
-        <Route path='/register' element={ <Register /> } />
-        <Route path='/terminos-y-condiciones' element={ <Terminosycondiciones /> } />
-        <Route path='/contact' element={ <ContactUs /> } />
-        <Route exact path="/products" element={<Products />}/>
-          <Route path="/products/among-sprite" element={<AmongUsSprite />}/>
-          <Route path="/products/foxSprite" element={<FoxSprite />}/>
-          <Route path="/products/gangster-sprite" element={<GangsterSprite />}/>
-          <Route path="/products/lario-sprite" element={<LarioSprite />}/>
-          <Route path="/products/warrior-sprite" element={<WarriorSprite />}/>
-          <Route path="/products/avatar-sprite" element={<AvatarSprite />}/>
-          <Route path="/products/bearman-sprite" element={<BearmanSprite />}/>
-          <Route path="/products/beisbol-sprite" element={<BeisbolSprite />}/>
-          <Route path="/products/quimico-sprite" element={<QuimicoSprite />}/>
-          <Route path="/products/cientifico-sprite" element={<CientificoSprite />}/>
-          <Route path="/products/empresario-sprite" element={<EmpresarioSprite />}/>
-          <Route path="/products/futbol-sprite" element={<FutbolSprite />}/>
-          <Route path="/products/golf-sprite" element={<GolfSprite />}/>
-          <Route path="/products/guardian-sprite" element={<GuardianSprite />}/>
-          <Route path="/products/mono-sprite" element={<MonoSprite />}/>
-          <Route path="/products/muñeco-sprite" element={<MuñecoSprite />}/>
-          <Route path="/products/perro-sprite" element={<PerroSprite />}/>
-          <Route path="/products/pirata-sprite" element={<PirataSprite />}/>
-          <Route path="/products/policia-sprite" element={<PoliciaSprite />}/>
-          <Route path="/products/tenis-sprite" element={<TenisSprite />}/>
-          <Route path="/products/undertale-sprite" element={<UndertaleSprite />}/>
-      </Routes>
-      <Footer />
-    </Router>
+    <DataProvider>
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path='/about' element={ <AboutUs /> } />
+          <Route path='/login' element={ <Login /> } />
+          <Route path='/register' element={ <Register /> } />
+          <Route path='/terminos-y-condiciones' element={ <Terminosycondiciones /> } />
+          <Route path='/contact' element={ <ContactUs /> } />
+          <Route path='/cart' element= {<CartContent />} />
+          <Route exact path="/products" element={<Products />}/>
+            <Route path="/products/among-sprite" element={<AmongUsSprite />}/>
+            <Route path="/products/foxSprite" element={<FoxSprite />}/>
+            <Route path="/products/gangster-sprite" element={<GangsterSprite />}/>
+            <Route path="/products/lario-sprite" element={<LarioSprite />}/>
+            <Route path="/products/warrior-sprite" element={<WarriorSprite />}/>
+            <Route path="/products/avatar-sprite" element={<AvatarSprite />}/>
+            <Route path="/products/bearman-sprite" element={<BearmanSprite />}/>
+            <Route path="/products/beisbol-sprite" element={<BeisbolSprite />}/>
+            <Route path="/products/quimico-sprite" element={<QuimicoSprite />}/>
+            <Route path="/products/cientifico-sprite" element={<CientificoSprite />}/>
+            <Route path="/products/empresario-sprite" element={<EmpresarioSprite />}/>
+            <Route path="/products/futbol-sprite" element={<FutbolSprite />}/>
+            <Route path="/products/golf-sprite" element={<GolfSprite />}/>
+            <Route path="/products/guardian-sprite" element={<GuardianSprite />}/>
+            <Route path="/products/mono-sprite" element={<MonoSprite />}/>
+            <Route path="/products/muñeco-sprite" element={<MuñecoSprite />}/>
+            <Route path="/products/perro-sprite" element={<PerroSprite />}/>
+            <Route path="/products/pirata-sprite" element={<PirataSprite />}/>
+            <Route path="/products/policia-sprite" element={<PoliciaSprite />}/>
+            <Route path="/products/tenis-sprite" element={<TenisSprite />}/>
+            <Route path="/products/undertale-sprite" element={<UndertaleSprite />}/>
+        </Routes>
+        <Footer />
+      </Router>
+    </DataProvider>
   );
 }
 

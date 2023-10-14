@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import spritesImport from "../../assets/sprites/spritesImports";
 import './header.css';
+import {Link} from "react-router-dom";
 
 function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -31,7 +32,7 @@ function Header() {
               <ul className={isNavOpen ? 'nav-links2 show2' : 'nav-links2'}>
                 <li><a href="/contact">CONTACT</a></li>
                 <li><a href="/login">LOGIN</a></li>
-                <li><a href="/cart">CART</a></li>
+                <Link classname= 'cart' to={"/cart"} > 🛒CART </Link>
               </ul>
             </nav>
 
