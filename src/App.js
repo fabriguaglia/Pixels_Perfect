@@ -4,12 +4,7 @@ import AboutUs from './components/about/about';
 import Footer from './components/footer/footer.jsx';
 import Header from './components/header/header';
 import Home from './components/home/home';
-<<<<<<< HEAD
 import Profile from "./components/log/Profile.js";
-=======
-import Login from "./components/log/login";
-import Register from "./components/log/register";
-import Terminosycondiciones from "./components/log/terminos-y-condiciones";
 import Products from './components/products/products';
 import AmongUsSprite from './components/products/productos-por-separado/AmongUsSprite';
 import FoxSprite from './components/products/productos-por-separado/FoxSprite';
@@ -34,7 +29,6 @@ import PoliciaSprite from './components/products/productos-por-separado/PoliciaS
 import TenisSprite from './components/products/productos-por-separado/TenisSprite';
 import UndertaleSprite from './components/products/productos-por-separado/UndertaleSprite';
 import ContactUs from './components/contact/ContactUs';
->>>>>>> 96484537ca11e0396d3e8d0b7028c9fcad19f7a5
 
 function App() {
   return (
@@ -43,10 +37,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path='/about' element={ <AboutUs /> } />
-<<<<<<< HEAD
         <Route path='/perfil' element={ <Profile /> } />
-
-=======
         <Route path='/login' element={ <Login /> } />
         <Route path='/register' element={ <Register /> } />
         <Route path='/terminos-y-condiciones' element={ <Terminosycondiciones /> } />
@@ -73,7 +64,6 @@ function App() {
           <Route path="/products/policia-sprite" element={<PoliciaSprite />}/>
           <Route path="/products/tenis-sprite" element={<TenisSprite />}/>
           <Route path="/products/undertale-sprite" element={<UndertaleSprite />}/>
->>>>>>> 96484537ca11e0396d3e8d0b7028c9fcad19f7a5
       </Routes>
       <Footer />
     </Router>
