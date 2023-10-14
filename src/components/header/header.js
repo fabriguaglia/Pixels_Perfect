@@ -30,7 +30,7 @@ function Header() {
 
               <ul className={isNavOpen ? 'nav-links2 show2' : 'nav-links2'}>
                 <li><a href="/contact">CONTACT</a></li>
-                <li><a href="/login">LOGIN</a></li>
+                <li><a href="/perfil">PERFIL</a></li>
                 <li><a href="/cart">CART</a></li>
               </ul>
             </nav>
