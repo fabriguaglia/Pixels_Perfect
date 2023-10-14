@@ -9,7 +9,9 @@ export default function ReuCard(props) {
                 <div className="title">{props.title}</div>
                 <div className="price">{props.price}</div>
                 <div className="info">{props.info}</div>
+                
             </a>
+            <button className="botonnn">Agregar al Carrito</button>
         </div>
     )
 }
