@@ -1,8 +1,10 @@
 # Pixel's Perfect
 
+_E-commerce dedicado a la venta de productos digitales._
+
 ![Logo del Proyecto](./src/assets/img/logoPixelV1.png)
 
-Breve descripción del proyecto en una o dos frases. Resalta su propósito y principales características.
+https://pixels-perfect.vercel.app/
 
 ## Tabla de Contenidos
 
@@ -19,9 +21,9 @@ Breve descripción del proyecto en una o dos frases. Resalta su propósito y pri
 
 [✔] Contruir una pestaña de About Us con una presentacion + una imagen y una seccion de cards que presente a los desarrolladores.
 
-[] Construir una pestaña con un login simple pero funcional.
+[✔] Construir una pestaña con un login simple pero funcional.
 
-[] Construir una pestaña de carrito funcional.
+[  ] Construir un dropdown de carrito funcional.
 
 ## Instalación
 
@@ -29,7 +31,7 @@ Breve descripción del proyecto en una o dos frases. Resalta su propósito y pri
 
 Clona este repositorio en tu máquina local utilizando Git:
 
-```bash git clone https://github.com/tu-usuario/pixelsperfect.git```
+```bash git clone https://github.com/tu-usuario/Pixels_Perfect.git```
 
 Sustituye "tu-usuario" por tu nombre de usuario de GitHub.
 
@@ -71,10 +73,10 @@ Indica bajo qué licencia se distribuye el proyecto. Es importante elegir una li
 
 ## Contacto
 
-GitHub: <https://github.com/NinjusDev>
+GitHub: <https://github.com/fabriguaglia>
 
-LinkedIn: <https://www.linkedin.com/in/lucionicolaslopez/>
+LinkedIn: <https://www.linkedin.com/in/fabrizio-donato-guaglianone/>
 
-Correo: <lucholop3zz@gmail.com>
+Correo: <fabriguaglia72@gmail.com>
 
 ---
