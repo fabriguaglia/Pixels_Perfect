@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/hiskyflipper');
+@import url('https://fonts.cdnfonts.com/css/fonseca-rounded');
+
 .profiledata {
     display: flex;
     flex-direction: column;
@@ -5,7 +8,6 @@
     justify-content: center;
     margin: 20px;
 }
-
 .profilebutton {
     text-align: center;
     margin-bottom: 20px;
@@ -17,6 +19,18 @@
     border: 2px solid black;
     padding: 5px 10px;
     cursor: pointer;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'HISKYFLIPPERHI', sans-serif;
     font-weight: bold;
+    width: 15%;
+}
+
+.profileprincipalh1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'HISKYFLIPPERHI', sans-serif;
+}
+
+.userdata {
+    font-family: 'HISKYFLIPPERHI', sans-serif;
 }
