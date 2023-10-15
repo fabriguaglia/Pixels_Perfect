@@ -76,6 +76,8 @@ https://pixels-perfect.vercel.app/
 ## Autores ✒️
 
 * **Fabrizio Donato Guaglianone** 
+* **Agustín Díaz Ortíz** 
+* **Facundo Leon Padilla**
 
 ## Licencia 📄
 
