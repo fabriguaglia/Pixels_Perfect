@@ -6,26 +6,26 @@ _E-commerce dedicado a la venta de productos digitales._
 
 https://pixels-perfect.vercel.app/
 
-## Tabla de Contenidos
+## Comenzando 🚀
 
-- [Requisitos](#requisitos)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-## Requisitos
+Mira **Deployment** para conocer como desplegar el proyecto.
 
-[✔] Construir una landing page con una presentacion y una seccion de mas vendidos o similares.
 
-[✔] Contruir una pestaña de About Us con una presentacion + una imagen y una seccion de cards que presente a los desarrolladores.
+### Requisitos 📋
 
-[✔] Construir una pestaña con un login simple pero funcional.
+[✔] Construir una landing page con la sección de productos.
 
-[  ] Construir un dropdown de carrito funcional.
+[✔] Construir un sistema de login y register simples pero funcionales.
 
-## Instalación
+[✔] Construir una página de about us con la presentación del desarrollador.
+
+[✔] Construir una página de contacto simple pero funcional.
+
+[✔] Construir un carrito simple pero funcional.
+
+### Instalación 🔧
 
 1. **Clonar el repositorio:**
 
@@ -39,7 +39,7 @@ Sustituye "tu-usuario" por tu nombre de usuario de GitHub.
 
 Ingresa al directorio del proyecto que acabas de clonar:
 
-```bash cd pixelsperfect```
+```bash cd sembraverde```
 
 2- **Instalar las dependencias:**
 
@@ -59,24 +59,38 @@ Esto abrirá automáticamente la aplicación en tu navegador predeterminado. Tam
 
 ¡Felicidades! Ahora puedes explorar y trabajar en tu proyecto de React. Los archivos principales se encuentran dentro de la carpeta 'src'.
 
-## Uso
+## Despliegue 📦
 
-Explica cómo se utiliza el proyecto. Proporciona ejemplos y comandos para demostrar su funcionalidad principal.
+Desplegado con [Vercel](https://vercel.com/) :
 
-## Contribución
+https://pixels-perfect.vercel.app/
 
-Describe cómo los desarrolladores pueden contribuir al proyecto. Puedes incluir pautas para el formato del código, reglas de envío de solicitudes de extracción y detalles sobre cómo se revisarán y fusionarán las contribuciones.
+## Construido con 🛠️
 
-## Licencia
+* [React](https://es.react.dev/) La biblioteca de JavaScript utilizada.
 
-Indica bajo qué licencia se distribuye el proyecto. Es importante elegir una licencia que se ajuste a tus intenciones y necesidades. Puedes usar [Choose a License](https://choosealicense.com/) para seleccionar la licencia adecuada.
+* [Firebase](https://firebase.google.com/) - La base de datos utilizada.
+
+* [auth0](https://auth0.com/) - El servicio de registro utilizado.
+
+## Autores ✒️
+
+* **Fabrizio Donato Guaglianone** 
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia GNU General Public License v3.0 - mira el archivo [LICENSE.txt](LICENSE.txt) para detalles.
 
 ## Contacto
 
 GitHub: <https://github.com/fabriguaglia>
 
-LinkedIn: <https://www.linkedin.com/in/fabrizio-donato-guaglianone/>
+LinkedIn: <https://www.linkedin.com/in/>
 
 Correo: <fabriguaglia72@gmail.com>
 
+---
+⌨️ con ❤️ por [fabriguaglia](https://github.com/fabriguaglia)😊
+               [Agussortiz](https://github.com/Agussortiz)😊
+               [DiveShower](https://github.com/DiveShower)😊
 ---
