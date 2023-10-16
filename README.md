@@ -71,6 +71,8 @@ https://pixels-perfect.vercel.app/
 
 * [auth0](https://auth0.com/) - El servicio de registro utilizado.
 
+* [Node.js](https://nodejs.org/) - El framework de ejecución backend utilizado.
+
 ## Autores ✒️
 
 * **Fabrizio Donato Guaglianone** 
