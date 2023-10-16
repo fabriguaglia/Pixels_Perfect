@@ -41,3 +41,9 @@
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 727px) { 
+    .botonperfil {
+        width: 50%;
+    }
+}
