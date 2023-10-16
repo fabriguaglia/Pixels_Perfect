@@ -1,4 +1,4 @@
-# Pixel's Perfect
+# Pixels Perfect
 
 _E-commerce dedicado a la venta de productos digitales._
 
