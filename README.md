@@ -69,8 +69,6 @@ https://pixels-perfect.vercel.app/
 
 * [React](https://es.react.dev/) La biblioteca de JavaScript utilizada.
 
-* [Firebase](https://firebase.google.com/) - La base de datos utilizada.
-
 * [auth0](https://auth0.com/) - El servicio de registro utilizado.
 
 ## Autores ✒️
